@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.center {
+  background-image: url(./bf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 50vw;
+  height: 70vh;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img img {
+  width: 7vw;
+}
+.brand {
+  font-size: 3rem;
+}
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20px;
+}
+.size > img {
+  width: 150px;
+}
+.rs {
+  margin-left: 70px;
+  font-size: 1.7rem;
+}
+.size button {
+  margin-left: 50px;
+}
+.size button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.none {
+  display: none;
+}
+#days {
+  background-image: url(./box\ img.avif);
+  background-size: cover;
+  width: 40vw;
+  height: 50vh;
+  border-radius: 20px;
+}
+.days1 {
+  display: flex;
+}
+.day {
+  margin: 50px 20px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+#days input {
+  height: 3vh;
+  margin: 55px 20px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+#done {
+  background-color: #966161;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-left: 40px;
+  padding: 10px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#done:hover{
+      background-color: #b08585;
+}
+#total{
+  font-size: 3rem;
+}
